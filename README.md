@@ -1,10 +1,6 @@
-Here's a concise and clean presentation for your GitHub README page, detailing the AWS architecture along with its accompanying Terraform configurations:
-
 ---
 
 ## AWS Architecture Overview
-
-This document outlines our AWS infrastructure which is designed to be secure, scalable, and highly available. Below is a high-level architecture diagram and a description of each component.
 
 ### Virtual Private Cloud (VPC)
 - **Description**: A logically isolated network within AWS where resources are launched. 
@@ -30,7 +26,7 @@ This document outlines our AWS infrastructure which is designed to be secure, sc
 - **Purpose**: Object storage service used for storing CloudTrail logs and other data securely.
 
 ### CloudTrail
-- **Purpose**: Provides governance, compliance, and auditing by logging and retaining account activity across the AWS infrastructure.
+- *Purpose*: Provides governance, compliance, and auditing by logging and retaining account activity across the AWS infrastructure.
 
 ### Security Groups and Network ACLs
 - **Function**: Act as virtual firewalls controlling inbound and outbound traffic to resources, enhancing security at both instance and subnet levels.
@@ -83,4 +79,4 @@ To deploy this infrastructure:
 
 ---
 
-This layout gives a clear and structured description of your AWS architecture and how it's managed via Terraform, making it suitable for a GitHub README or documentation page.
+This layout gives a clear and structured description of your AWS architecture and how it's managed via Terraform
