@@ -70,16 +70,10 @@ hi this is Mark Below is a high-level architecture diagram and a description of 
 Terraform is utilized to ensure infrastructure is consistently and reliably deployed. Below is the project structure and a brief overview of each module.
 
 ### Terraform Project Structure
-```
-[Contributing Guide](outputs.tf) 
-|-- (main.tf)
-|-- (variables.tf)
-|-- (outputs.tf)
-```
-[](main.tf)
-[](variables.tf)
-[](outputs.tf)
-[outputs.tf](outputs.tf) 
+[main.tf](main.tf)
+[variables.tf](variables.tf)
+[outputs.tf](outputs.tf)
+
 
 
 ### Module Descriptions
