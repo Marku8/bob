@@ -71,10 +71,13 @@ Terraform is utilized to ensure infrastructure is consistently and reliably depl
 
 ### Terraform Project Structure
 ```
-|-- main.tf
-|-- variables.tf
-|-- outputs.tf
+|-- (main.tf)
+|-- (variables.tf)
+|-- (outputs.tf)
 ```
+(main.tf)
+(variables.tf)
+(outputs.tf)
 
 ### Module Descriptions
 - **VPC Module**: Configures VPC, subnets, IGW, NAT gateway, and route tables.
