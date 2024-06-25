@@ -41,7 +41,33 @@ hi this is Mark Below is a high-level architecture diagram and a description of 
 - **Private Subnet Security**: Utilize security groups and network ACLs to manage traffic and enhance security.
 
 ## Network Architecture Diagram
-(In this section, you would include a link to or an image of your network diagram.)
++-----------------------------------------------+
+|                  AWS VPC                      |
+| +---------------------+  +------------------+ |
+| |  Public Subnet      |  |  Private Subnet  | |
+| |  +---------------+  |  |  +-------------+ | |
+| |  | Internet      |  |  |  | EC2 Instance | | |
+| |  | Gateway (IGW) |  |  |  +-------------+ | |
+| |  +-------^-------+  |  |                  | |
+| +----------|----------+  +---------|--------+ |
+|            |                      |          |
+|            |  +--------------+    |          |
+|            +->| NAT Gateway  |<---+          |
+|               +-------^------+               |
+| +-----------------------------------------+ |
+| | S3 Bucket                                | |
+| | +---------+                              | |
+| | | Logging |<-----------------------------+ |
+| | +---------+                              | |
+| +-----------------------------------------+ |
+| +-----------------------------------------+ |
+| | CloudTrail                               | |
+| | +---------+                              | |
+| | | Logging |                              | |
+| | +---------+                              | |
+| +-----------------------------------------+ |
++-----------------------------------------------+
+
 
 ## Terraform Infrastructure as Code
 Terraform is utilized to ensure infrastructure is consistently and reliably deployed. Below is the project structure and a brief overview of each module.
@@ -61,18 +87,13 @@ Terraform is utilized to ensure infrastructure is consistently and reliably depl
 
 ### Usage
 To deploy this infrastructure:
-1. Initialize the Terraform environment:
-   ```bash
+1. Initialize Review planned Apply configuration Terraform environment:
+   ```
    terraform init
-   ```
-2. Review the planned actions:
-   ```bash
    terraform plan
-   ```
-3. Apply the configuration:
-   ```bash
    terraform apply
    ```
+
 
 ### Next Steps
 - **Deploy the Infrastructure**: Execute the Terraform scripts to build the environment.
