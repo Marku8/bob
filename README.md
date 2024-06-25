@@ -2,6 +2,8 @@
 
 ## AWS Architecture Overview
 
+hi this is Mark Below is a high-level architecture diagram and a description of each component.
+
 ### Virtual Private Cloud (VPC)
 - **Description**: A logically isolated network within AWS where resources are launched. 
 
