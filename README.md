@@ -1,4 +1,4 @@
-AWS Architecture Diagram 
+**AWS Architecture Diagram **
 
 Here's a high-level description of the architecture: 
 
