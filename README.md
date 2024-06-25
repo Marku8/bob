@@ -41,6 +41,7 @@ hi this is Mark Below is a high-level architecture diagram and a description of 
 - **Private Subnet Security**: Utilize security groups and network ACLs to manage traffic and enhance security.
 
 ## Network Architecture Diagram
+```
 +-----------------------------------------------+
 |                  AWS VPC                      |
 | +---------------------+  +------------------+ |
@@ -67,7 +68,7 @@ hi this is Mark Below is a high-level architecture diagram and a description of 
 | | +---------+                              | |
 | +-----------------------------------------+ |
 +-----------------------------------------------+
-
+```
 
 ## Terraform Infrastructure as Code
 Terraform is utilized to ensure infrastructure is consistently and reliably deployed. Below is the project structure and a brief overview of each module.
