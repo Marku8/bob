@@ -43,7 +43,7 @@ hi this is Mark Below is a high-level architecture diagram and a description of 
 ## Network Architecture Diagram
 ```
 +------------------------------------------------+
-|                  AWS VPC                       |
+|                     AWS VPC                       |
 | +---------------------+  +-------------------+ |
 | |  Public Subnet      |  |  Private Subnet   | |
 | |  +---------------+  |  |  +--------------+ | |
