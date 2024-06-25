@@ -1,5 +1,3 @@
-# AWS Architecture Diagram
-
 ## High-Level Description of the Architecture
 
 ### Virtual Private Cloud (VPC)
@@ -60,6 +58,7 @@ A VPC is a logically isolated network within the AWS cloud where you can launch 
 ### Route Tables
 - Properly configure route tables to ensure correct routing of traffic.
 
+## Network Architecture Diagram
 ```
 +------------------------------------------------+
 |                     AWS VPC                    |
