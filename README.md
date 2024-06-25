@@ -71,14 +71,15 @@ Terraform is utilized to ensure infrastructure is consistently and reliably depl
 
 ### Terraform Project Structure
 ```
+[Contributing Guide](outputs.tf) 
 |-- (main.tf)
 |-- (variables.tf)
 |-- (outputs.tf)
 ```
-(main.tf)
-(variables.tf)
-(outputs.tf)
-Check out the [Contributing Guide](outputs.tf) 
+[](main.tf)
+[](variables.tf)
+[](outputs.tf)
+[outputs.tf](outputs.tf) 
 
 
 ### Module Descriptions
