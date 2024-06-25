@@ -26,7 +26,7 @@
 - **Purpose**: Object storage service used for storing CloudTrail logs and other data securely.
 
 ### CloudTrail
-- *Purpose*: Provides governance, compliance, and auditing by logging and retaining account activity across the AWS infrastructure.
+- **Purpose**: Provides governance, compliance, and auditing by logging and retaining account activity across the AWS infrastructure.
 
 ### Security Groups and Network ACLs
 - **Function**: Act as virtual firewalls controlling inbound and outbound traffic to resources, enhancing security at both instance and subnet levels.
